@@ -6,6 +6,7 @@
   - 2014: extracting disease, risk factors
 - NLPDA 2004 : tagged with protein/DNA/RNA/cell line/cell type on MEDLINE abstracts
 - MTsamples : publicly available transcribed medical reports (<http://www.mtsamples.com/>).
+- MIMIC-III : openly available dataset developed by the MIT Lab for Computational Physiology, MIT Lab for Computational Physiology, containing data for 61, 532 ICU stays for 46, 520 patients. In addition to structured clinical data (demographics, vital signs, laboratory tests, medications, etc.), it contains over 2 million free-text notes from nurses, physicians, specialists, and more. (Ref:https://text-machine-lab.github.io/ClinicalNLP2016/resources.html)
 
 
 
