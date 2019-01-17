@@ -20,10 +20,15 @@ Charts(차트 종류) - 전제 JSON 형태로 데이터입력
    {
 
    ​	“Patient_ID” : 환자 식별자,
+
    ​	“Diagnosis_Code” : ICD-9 code,
+
    ​	“Diagnosis_Date” : 진단 날짜,
+
    ​	“Procedure_Code” : 치료법 code,
+
    ​	“Procedure_Date” : 치료 날짜,
+
    ​	“Drug_NDC” : NDC
 
    }
@@ -43,13 +48,19 @@ Charts(차트 종류) - 전제 JSON 형태로 데이터입력
    {
 
    ​	“nodes” : [ //진단, 치료, 처방약 이 될 수 있다.
-   ​		{"name” : “node_0”},
-   ​		{"name” : “node_1”},
+
+   ​			{"name” : “node_0”},
+
+   ​			{"name” : “node_1”},
+
    ​	],
 
    ​	"links” : [
+
    ​			{"source” : “node_0”, “target”: “node_1”, “value”: “2”}
+
    ​	]
+
    }
 
    사용자는 기준 날짜(D1)와, 관찰기간을 정한다. 지정한 기준 날짜를 기준으로 전/후 관찰기간에 대한 시각화를 진행한다. 시각화 기간 = [D1 - 관찰기간 ~ D1 + 관찰기간] 
