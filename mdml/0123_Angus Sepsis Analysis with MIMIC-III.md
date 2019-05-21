@@ -120,7 +120,7 @@ SQL Reference : https://github.com/MIT-LCP/mimic-code/blob/master/concepts/sepsi
      | 9    | 570   | Acute necrosis of liver  | 313        |
      | 10   | 34830 | Encephalopathy NOS       | 219        |
 
-4. 다른 테이블을 확인해보기 전에 투약 테이블(prescriptions) 을 먼저 확인해서 투약 정보다 진단을 연결 할 수 있는 방법이 있을까라는 고민이 되었습니다. (이것은 그저 저의 가설..일 뿐입니다.)
+4. 다른 테이블을 확인해보기 전에 투약 테이블(prescriptions) 을 먼저 확인해서 투약 정보와 진단을 연결 할 수 있는 방법이 있을까라는 고민이 되었습니다. (이것은 그저 저의 가설..일 뿐입니다.)
 
    ```sql
    SELECT
