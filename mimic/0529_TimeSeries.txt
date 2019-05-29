@@ -1,0 +1,16 @@
+시계열 데이터 예측 문제는 다음과 같이 5가지 정도로 분류할 수 있다.
+1. Univariate : 시간의 따른 관찰값의 종류가 한가지인 경우
+2. Multivariate : Multiple inter-related observations over time
+3. Multi-step : Forecast multiple time steps into the future
+4. Multivariate Multi-step : Forecast multiple time steps into the future for multiple different series
+5. Classification : Predict a discrete class given a sequence of observations over time.
+
+Baseline Methods
+1. Autoregressive forecasting methods [ARIMA, Seasonal ARIMA] with Grid Search hyperparameters
+2. Exponential Smoothing forecasting
+
+Deep Learning Algorithms
+1. MLPs
+2. CNNs
+3. LSTMs
+4. Hybrids
